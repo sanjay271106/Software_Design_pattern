@@ -55,7 +55,7 @@ export const Home = () => {
 
         <div className=' h-[27rem] flex flex-row justify-center items-center bg-gray-100'>
           <div className='w-[70rem] flex justify-start items-start '>
-              <img src={'https://ik.imagekit.io/eg5dbqcea/r-architecture-2gDwlIim3Uw-unsplash.jpg?updatedAt=1721984406805'} className='h-[31rem] w-[49rem] p-[5rem] rounded-xl'/>
+              <img src={'https://ik.imagekit.io/1in7nqs7x/mohamed-b-SXQ1S5qtXmM-unsplash.jpg?updatedAt=1722226184278'} className='h-[31rem] w-[49rem] p-[5rem] rounded-xl'/>
           </div>
           <div className=' w-1/2 flex flex-col gap-5 justify-center items-start mr-20'>
             <h6 className='text-4xl'>Sell for top price and save thousands on fees</h6>
@@ -83,7 +83,7 @@ export const Home = () => {
              </div>
           </div>
           <div className='w-[70rem] flex justify-start items-start '>
-              <img src={'https://ik.imagekit.io/eg5dbqcea/r-architecture-2gDwlIim3Uw-unsplash.jpg?updatedAt=1721984406805'} className='h-[31rem] w-[49rem] p-[5rem] rounded-xl'/>
+              <img src={'https://ik.imagekit.io/1in7nqs7x/alina-perekatenkova-fDYUqiGKe7g-unsplash.jpg?updatedAt=1722226305943'} className='h-[31rem] w-[49rem] p-[5rem] rounded-xl'/>
           </div>
         </div>
 

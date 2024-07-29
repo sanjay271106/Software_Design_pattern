@@ -40,7 +40,6 @@ export const Navbar = () => {
         <div className='w-2/6 flex flex-row items-center text-2xl font-bold '>
           <NavLink to='/'>
           <img src={logo} className="h-[6rem] w-[19rem] mr-2 ml-20" />
-          
           </NavLink>
         </div>
         <div className='w-3/6 flex flex-row items-center text-xl font-bold gap-10 ml-40'>
