@@ -4,8 +4,8 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import GoogleLogo from '@/assets/images/google.png'; // Adjust the path as necessary
-import GridPattern from '@/components/magicui/animated-grid-pattern';
-import RetroGrid from '@/components/magicui/retro-grid';
+// import GridPattern from '@/components/magicui/animated-grid-pattern';
+// import RetroGrid from '@/components/magicui/retro-grid';
 import { NavLink } from 'react-router-dom';
 
 export const Login = () => {
@@ -26,6 +26,18 @@ export const Login = () => {
               <span className="w-full border-t" />
             </div>
           </div>
+          <NavLink to='www.google.com'>
+          <Button className="w-[21rem] flex items-center justify-center gap-2 bg-blue-500 text-white hover:bg-blue-600">
+            <img src={GoogleLogo} alt="Google" className="w-5 h-5" />
+            Continue with Google
+          </Button>
+          </NavLink>
+          <h3 className='ml-[35%] text-gray-500'>or login with</h3>
+          <div className="relative">
+            <div className="absolute inset-0 flex items-center">
+              <span className="w-full border-t" />
+            </div>
+          </div>
           <div className="grid gap-2">
             <Label htmlFor="email">Email</Label>
             <Input id="email" type="email" placeholder="username" className='bg-gray-100' required />
@@ -41,15 +53,9 @@ export const Login = () => {
         </CardContent>
         <CardFooter className="flex flex-col gap-2">
           <NavLink to='/udash'>
-          <Button className="w-[15rem]">Login</Button>
+          <Button className="w-[20rem]">Login</Button>
           </NavLink>
-          <h3>or login with</h3>
-          <NavLink to='www.google.com'>
-          <Button className="w-[15rem] flex items-center justify-center gap-2 bg-blue-500 text-white hover:bg-blue-600">
-            <img src={GoogleLogo} alt="Google" className="w-5 h-5" />
-            Continue with Google
-          </Button>
-          </NavLink>
+          <p className='text-gray-500'>Dont have an account?<a href=""><NavLink to="/register">register</NavLink></a></p>
         </CardFooter>
       </Card>
     </div>

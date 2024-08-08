@@ -40,7 +40,7 @@ export const Home = () => {
         <div className=' h-[27rem] flex flex-row justify-center items-center' >
           <div className=' w-1/2 flex flex-col gap-5 justify-center items-start ml-[10rem]'>
             <h6 className='text-4xl'>Local Expertise For Luxury Home</h6>
-            <h6 className='text-l max-w-[35rem]'>Cityscape agents have years of experience buying and selling high-end homes. Get the highest level of service from our best agents.</h6>
+            <h6 className='text-l max-w-[35rem]'>Cityscape agents have years of experience buying and selling high-end homes. Get the highest level of service from our best agents. Trust us to find your dream property or sell your home for the best price.</h6>
             <button className='bg-red-600 w-[9rem] h-[2.5rem] text-white font-bold flex items-center justify-center space-x-2'>
                <span>Get Started</span>
                <ArrowRight />
@@ -60,7 +60,7 @@ export const Home = () => {
           <div className=' w-1/2 flex flex-col gap-5 justify-center items-start mr-20'>
             <h6 className='text-4xl'>Sell for top price and save thousands on fees</h6>
             <h6 className='text-l max-w-[35rem]'>Our agents have the experience to price, market, and sell your home for the best price possible. Plus, Redfin listings get seen by 70% more buyers. And you get it all for half the listing fee other brokerages often charge</h6>
-            <button className='bg-green-600 w-[9rem] h-[2.5rem] text-white font-bold flex items-center justify-center space-x-2'>
+            <button className='bg-red-600 w-[9rem] h-[2.5rem] text-white font-bold flex items-center justify-center space-x-2'>
                <span>Sell Home</span>
                <ArrowRight />
             </button>

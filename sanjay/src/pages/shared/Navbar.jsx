@@ -14,12 +14,12 @@ export const Navbar = () => {
           title:'Rent',
           link:'/rent'
         },
+        // {
+        //   title:'Sell',
+        //   link:'/sell'
+        // },
         {
-          title:'Sell',
-          link:'/sell'
-        },
-        {
-          title:'Realtors',
+          title:'Agents',
           link:'/agent'
         }
        
@@ -39,10 +39,10 @@ export const Navbar = () => {
     <div className='w-full h-[8vh] flex flex-row justify-center items-center sticky top-0 bg-white shadow-md z-50 '>
         <div className='w-2/6 flex flex-row items-center text-2xl font-bold '>
           <NavLink to='/'>
-          <img src={logo} className="h-[6rem] w-[19rem] mr-2 ml-20" />
+          <img src={logo} className="h-[5rem] w-[17rem] mr-2 ml-20" />
           </NavLink>
         </div>
-        <div className='w-3/6 flex flex-row items-center text-xl font-bold gap-10 ml-40'>
+        <div className='w-3/6 flex flex-row items-center text-xl font-bold gap-10 ml-60'>
         {
           links.map((data,index) => (
             <li key={index} className='list-none'>
